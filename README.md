@@ -1,14 +1,18 @@
 # COMP333_HW4
-Frontend Mobile (React-Native)
+Backend for our HW4 Frontend Mobile (React-Native)
 
 Sydney Keller (<smkeller@wesleyan.edu>)
 Minji Woo (<mwoo@wesleyan.edu>)
 
 
 # Purpose:
-
+Connect user to SQL database through REST API in order to be used by our React-Native frontend for mobile. Provides endpoints for frontend.
 
 # Setting up the developement environment:
+1. Git clone into htdocs
+2. Make sure your general structure of files is as follows: XAMPP/xamppfiles/htdocs/COMP333_HW4
+3. Setting up MySQL database, local XAMPP dev environment, and phpMyAdmin:
+
 - Screenshot of local XAMPP developement environment 
 </br><img align ="center"
 height="32%"
@@ -48,9 +52,11 @@ width="32%"
 src="./Images/Sydney_ratings_table.png"
 alt="Screenshot of ratings_table"
 />
+4. Through XAMPP, make sure MySQL Database and Apache Web Server are running
 
 # How to run the code:
-
+The frontend will deal with connecting with the backend. In order to make sure this is successful, you need to be running MySQL Database through XAMPP to connect to the database.</br>
+The frontend readme will cover how to set up everything else.
 
 # Folders and Files:
 ## Rest API/Model, View, Controller Architecture:
@@ -70,9 +76,6 @@ Controller/Api:
 Checkout this tutorial for how more details on how we set up our REST API:
 https://code.tutsplus.com/how-to-build-a-simple-rest-api-in-php--cms-37000t
 
-## Frontend React Native App:
-
-
 ## Other files:
 Images:
 - Sydney_XAMPP - Screenshot of local XAMPP developement environment
@@ -80,6 +83,3 @@ Images:
 - Sydney_user_table.png - Screenshot of user_table from phpMyAdmin
 - Sydney_ratings_table_structure.png - Screenshot of ratings_table structure from phpMyAdmin
 - Sydney_ratings_table.png - Screenshot of ratings_table from phpMyAdmin
-
-
-# Sources Cites:
