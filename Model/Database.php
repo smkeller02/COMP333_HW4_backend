@@ -1,8 +1,6 @@
 <?php
 // SYDNEY KELLER + MINJI WOO 
 // smkeller@wesleyan.edu, mjwoo@wesleyan.edu
-
-session_start();
 class Database
 {
     protected $connection = null;

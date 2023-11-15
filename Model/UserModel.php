@@ -2,8 +2,6 @@
 // SYDNEY KELLER + MINJI WOO 
 // smkeller@wesleyan.edu, mjwoo@wesleyan.edu
 
-session_start();
-
 require_once PROJECT_ROOT_PATH . "/Model/Database.php";
 class UserModel extends Database
 {
